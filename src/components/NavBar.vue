@@ -1,9 +1,9 @@
 <template>
   <nav>
     <div class="nav-container">
-      <a href="#">About Redlining</a>
-      <a href="#">Reinvestment</a>
-      <a href="#">Organizations</a>
+      <a href="#" target="_blank">About Redlining</a>
+      <a href="#" target="_blank">Reinvestment</a>
+      <a href="#" target="_blank">Organizations</a>
     </div>
   </nav>
 </template>
