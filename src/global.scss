@@ -1,0 +1,32 @@
+$nav-color: #d8c050;
+$primary: #887549;
+$secondary: #b85a3e;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin background($size, $position) {
+  background-size: $size;
+  background-position: $position;
+}
+
+@mixin fill($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin tablet {
+  @media screen and (max-width: 800px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
